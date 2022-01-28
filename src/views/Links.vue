@@ -40,7 +40,7 @@
            
            <div class="inline-block  " >
 
-                <div class="p-2 border-4 border-white inline-block  margin-center" style="width:70%"  >
+                <div class="p-2 border-4 border-white inline-block  margin-center" style="width:49%"  >
                    <img src="@/assets/images/Mackenzie.jpg" class=" " width="100%" /> 
                 </div>
 
