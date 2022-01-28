@@ -90,9 +90,11 @@
 
    </div>
 
-   
 
-  <Footer/>
+   <div style="height:300px;" class="block py-24">  </div>
+ 
+  <Footer />
+
 
 </div>
 </template>
