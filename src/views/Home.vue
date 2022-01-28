@@ -18,142 +18,17 @@
 
 
 
-
-   <div class="   ghostly " style="left:0;top:0; z-index:0;overflow:hidden; " id="decorations">
-
-
-    <div class="absolute bg-tree-1" style="overflow-hidden;left:5%; top:14rem; width:500px; height:900px" > 
-            
-        </div>
-
-
-    <div class="absolute bg-tree-2" style="overflow-hidden;left:26%; top:8rem; width:600px; height:900px" > 
-            
-        </div>
-
-
- 
-       <img src="@/assets/images/amfo_weeds.png" width="200px" class="absolute" style="left:16rem;top:200px" > 
-
-      
-      
-       <div class="absolute bg-shapes" style="overflow-hidden;left:6rem; width:800px; height:900px" > 
-            
-        </div>
-
-   </div>
-
-
-
-   <div class=" " style=" ">
-
-       <div class=" pt-4 pl-24 " style="width:60rem; height:240px">
-            <img src="@/assets/images/amfo_logo.png" width="140px" /> 
-       </div>
-
-   </div>
-
-
-    
-    <div class="section bg-white border-black w-full" style=" ">
-
-
-      <div >
-        <a v-for="row of sidenavConfig.rows" :key="row.title"
-         class="  border-l-4   border-black p-4 pr-16 block "
-         :class="{
-           'border-b-4':(row.index != 3 ), 
-           'bg-pastel-orange':(row.index == 0),
-           'bg-pastel-pink':(row.index == 1 ),
-           'bg-pastel-green':(row.index == 2 ),
-           'bg-pastel-blue':(row.index == 3 )
-
-         }"
-         
-          style="width:14rem"
-          :href="row.url"
-           >
-        
-            {{row.title}}  
-
-        </a>
-     </div>
-      
-
-
-    </div>
- 
-    <div class="section w-full border-t-4   border-black px-0 lg:px-1" style="background: #e5d6d9;min-height:80px;">
-
-     </div>
-
-      <div class="section  w-full border-t-4   border-black px-0 lg:px-1" style="background: #b3a8ca;min-height:80px;">
-
-     </div>
-
-      <div class="section  w-full border-t-4    border-black px-0 lg:px-1" style="background: #aad3d9;min-height:80px;">
-
-     </div>
-
-
-    <div class="section bg-white border-t-4 border-black px-0 lg:px-1" style="min-height:400px">
-
-     </div>
-
-
-
-
-
-
-
-   <div class="hidden section bg-primary border-b-4 border-black px-0 lg:px-1">
- 
-     
-
-
-     <div class="container margin-center bg-gray-100" style="">
-       <div class="hero-text w-row relative" style="min-height:300px;" >
-
-         
-
-       </div>
-       <div class="pb-2">
-
-         <div class=" grid grid-cols-2 px-8 md:px-24">
-
-            
-
-        </div>
-
-       </div>
-
-
-
-        <div class="pb-16">
-
-            <div class=" grid grid-flow-col px-8 md:px-24">
-
-              <div>
-                
-                </div>
-
-
-              
-
-
-            </div>
-
-          </div>
-
-
-
-     </div>
-   </div>
-
-     
- 
   
+  <Decorations />
+  
+ 
+  <LogoContainer />
+ 
+    
+  <SideNav />
 
+
+  <ColorBars />
 
    
 
@@ -166,29 +41,27 @@
 <script>
  
 
-import sidenavConfig from './config/SideNav.js'
-
 
 import Navbar from './components/Navbar.vue';
 import Footer from './components/Footer.vue';
 
+import Decorations from './components/Decorations.vue'
+import LogoContainer from './components/LogoContainer.vue'
+import SideNav from './components/SideNav.vue'
+import ColorBars from './components/ColorBars.vue'
+
 export default {
   name: 'Home',
   props: [],
-  components: {Navbar,Footer},
+  components: {Navbar,Decorations,LogoContainer,SideNav,ColorBars,Footer},
   data() {
     return {
-      sidenavConfig: sidenavConfig
+       
 
     }
   },
   created() {
-
-    this.sidenavConfig = sidenavConfig
-
-    console.log('sidenavConfig.rows',sidenavConfig)
-
-    
+ 
   },
   methods: {
 
