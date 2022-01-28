@@ -19,16 +19,17 @@
 
 
 
-   <div class="   ghostly " style="left:0;top:0; z-index:0 " id="decorations">
+   <div class="   ghostly " style="left:0;top:0; z-index:0;overflow:hidden; " id="decorations">
 
        <img src="@/assets/images/amfo_tree_1.png" width="400px" class="absolute" style="left:12%;top:480px;z-index:2" > 
        <img src="@/assets/images/amfo_tree_2.png" width="580px" class="absolute" style="left:26%;top:140px;z-index:2" > 
 
 
        <img src="@/assets/images/amfo_weeds.png" width="200px" class="absolute" style="left:18rem;top:180px" > 
-        <img src="@/assets/images/amfo_shapes.png" width="840px" class="absolute" style="left:2rem;top:100px;z-index:0" > 
 
-
+       <div class="absolute bg-shapes" style="overflow-hidden;left:6rem; width:800px; height:900px" > 
+            
+        </div>
 
    </div>
 
