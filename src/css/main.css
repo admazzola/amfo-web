@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap');
 
+
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+
 .loader {
   border: 3px solid #f3f3f3; /* Light grey */
   border-top: 3px solid #3498db; /* Blue */
@@ -8,6 +16,8 @@
   height: 30px;
   animation: spin 2s linear infinite;
 }
+
+
 
 @keyframes spin {
   0% { transform: rotate(0deg); }
