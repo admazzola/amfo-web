@@ -3,7 +3,7 @@ import Router from 'vue-router'
 //import Router from './hash-router.vue'
 
 import Home from './views/Home.vue'
-import Filters from './views/Filters.vue'
+import Artwork from './views/Artwork.vue'
 
 import NotFound from './views/NotFound.vue'
 
@@ -20,11 +20,10 @@ export default new Router({
       component: Home
     },
  
-
     {
-      path: '/filters',
-      name: 'filters',
-      component: Filters
+      path: '/artwork',
+      name: 'artwork',
+      component: Artwork
     },
  
     {

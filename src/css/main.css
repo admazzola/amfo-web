@@ -26,6 +26,26 @@
   background-color: #feee53
 }
 
+.bg-pastel-blue:hover{
+  background-color: #76b7d1aa
+}
+
+.bg-pastel-orange:hover{
+  background-color: #d4a375aa
+}
+
+.bg-pastel-green:hover{
+  background-color: #accfa9aa
+}
+
+.bg-pastel-pink:hover{
+  background-color: #ad8cb6aa
+}
+
+
+.ghostly{
+  pointer-events: none;
+}
 .markdown a
 {
  color: #1b366d;
