@@ -44,6 +44,23 @@
 
 
 
+.bg-tree-1 {
+  padding-bottom: 2.5%;
+  background-image: url('../assets/images/amfo_tree_1.png');
+  background-position: 55% 50%, 0px 0px;
+  background-size: 450px, 300px;
+  background-repeat: no-repeat, repeat;
+ 
+}
+.bg-tree-2 {
+  padding-bottom: 2.5%;
+  background-image: url('../assets/images/amfo_tree_2.png');
+  background-position: 55% 50%, 0px 0px;
+  background-size: 550px, 500px;
+  background-repeat: no-repeat, repeat;
+ 
+}
+
 .bg-shapes {
   padding-bottom: 2.5%;
   background-image: url('../assets/images/amfo_shapes.png');
@@ -62,6 +79,10 @@
  color: #1b366d;
  text-decoration: underline;
  font-weight: bold;
+}
+
+.w-full {
+  width:100%
 }
 
 .margin-center{

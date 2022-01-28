@@ -1,6 +1,6 @@
 <template>
 
-<div class="relative bg-white">
+<div class="relative bg-white w-full overflow-hidden">
 
 
 
@@ -21,12 +21,22 @@
 
    <div class="   ghostly " style="left:0;top:0; z-index:0;overflow:hidden; " id="decorations">
 
-       <img src="@/assets/images/amfo_tree_1.png" width="400px" class="absolute" style="left:12%;top:480px;z-index:2" > 
-       <img src="@/assets/images/amfo_tree_2.png" width="580px" class="absolute" style="left:26%;top:140px;z-index:2" > 
+
+    <div class="absolute bg-tree-1" style="overflow-hidden;left:6rem; top:14rem; width:600px; height:900px" > 
+            
+        </div>
 
 
+    <div class="absolute bg-tree-2" style="overflow-hidden;left:26rem; top:8rem; width:700px; height:900px" > 
+            
+        </div>
+
+
+ 
        <img src="@/assets/images/amfo_weeds.png" width="200px" class="absolute" style="left:18rem;top:180px" > 
 
+      
+      
        <div class="absolute bg-shapes" style="overflow-hidden;left:6rem; width:800px; height:900px" > 
             
         </div>
@@ -45,7 +55,7 @@
 
 
     
-    <div class="section bg-white border-black " style=" ">
+    <div class="section bg-white border-black w-full" style=" ">
 
 
       <div >
@@ -73,15 +83,15 @@
 
     </div>
  
-    <div class="section  border-t-4   border-black px-0 lg:px-1" style="background: #e5d6d9;min-height:80px;">
+    <div class="section w-full border-t-4   border-black px-0 lg:px-1" style="background: #e5d6d9;min-height:80px;">
 
      </div>
 
-      <div class="section border-t-4   border-black px-0 lg:px-1" style="background: #b3a8ca;min-height:80px;">
+      <div class="section  w-full border-t-4   border-black px-0 lg:px-1" style="background: #b3a8ca;min-height:80px;">
 
      </div>
 
-      <div class="section border-t-4    border-black px-0 lg:px-1" style="background: #aad3d9;min-height:80px;">
+      <div class="section  w-full border-t-4    border-black px-0 lg:px-1" style="background: #aad3d9;min-height:80px;">
 
      </div>
 
