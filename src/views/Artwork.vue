@@ -17,7 +17,7 @@
                   </div>
 
                   <div class="p-4">
-                    <div v-for="item in artworksArray" v-bind:key="item.name" style="max-width:40%"  class="p-4 inline-block"> 
+                    <div v-for="item in artworksArray" v-bind:key="item.name" style=" "  class="p-4  "> 
                     
                       <img v-bind:src="getImgUrl(item.src)" class=""/>
                     </div>     
