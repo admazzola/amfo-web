@@ -10,7 +10,7 @@
 
          <LogoContainer />
             
-        <div class="md:grid md:grid-flow-col " >
+        <div class="md:grid md:grid-flow-col pr-8" style="" >
                 
                 <div class=" md:col-span-1 "  >
                  <SideNav /> 
