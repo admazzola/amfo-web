@@ -3,7 +3,7 @@
   "description": "Frontend website for mineable token 0xbtc",
   "version": "0.1.0",
   "engines" : { 
-    "node" : ">=16.0.0 <17.0.0" 
+    "node" : ">=14.0.0 <15.0.0" 
   },
   "scripts": {
     "dev": "vue-cli-service serve",
