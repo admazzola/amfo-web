@@ -3,7 +3,13 @@
    <div class=" " style=" ">
 
     
- 
+      
+    <div class="section w-full border-t-4   border-black px-0 lg:px-1" style="background: transparent;min-height:476px;">
+
+     </div>
+
+
+
     <div class="section w-full border-t-4   border-black px-0 lg:px-1" style="background: #e5d6d9;min-height:80px;">
 
      </div>

@@ -1,11 +1,11 @@
 <template>
 
-    <div class="section bg-white border-black w-full" style=" ">
+    <div class="section  border-black w-full" style=" ">
 
 
       <div >
         <a v-for="row of sidenavConfig.rows" :key="row.title"
-         class="  border-l-4   border-black p-4 pr-16 block "
+         class="  border-l-4 border-r-4  bg-white border-black p-4 pr-4 block "
          :class="{
            'border-b-4':(row.index != 3 ), 
            'bg-pastel-orange':(row.index == 0),
@@ -15,7 +15,7 @@
 
          }"
          
-          style="width:14rem"
+          style="width: 14rem"
           :href="row.url"
            >
         

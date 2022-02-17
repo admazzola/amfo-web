@@ -1,5 +1,5 @@
 <template>
-   <div class="   ghostly " style="left:0;top:0; z-index:0;overflow:hidden; " id="decorations">
+   <div class="   ghostly " style="left:0;top:0;  overflow:hidden; " id="decorations">
 
 
     <div class="absolute bg-tree-1" style="overflow-hidden;left:5%; top:14rem; width:500px; height:900px" > 

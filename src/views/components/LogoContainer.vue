@@ -1,5 +1,8 @@
 <template>
 
+   <div class="border-4 border-black p-2 pl-16 " style="width:60rem; height:240px">
+   
+   
    <a class=" " style=" " href="/#/">
 
        <div class=" pt-4 pl-24 " style="width:60rem; height:240px">
@@ -7,6 +10,10 @@
        </div>
 
    </a>
+
+
+            
+       </div>
    
 </template>
 
