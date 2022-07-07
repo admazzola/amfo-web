@@ -57,9 +57,9 @@
 
 .bg-tree-1 {
   padding-bottom: 2.5%;
-  background-image: url('../assets/images/amfo_tree_1.png');
+  background-image: url('../assets/images/v2/amfo2_trees.svg');
   background-position: 55% 50%, 0px 0px;
-  background-size: 450px, 300px;
+  background-size: 850px, 600px;
   background-repeat: no-repeat, repeat;
  
 }

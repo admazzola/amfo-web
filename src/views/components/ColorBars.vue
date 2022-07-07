@@ -10,15 +10,15 @@
 
 
 
-    <div class="section w-full border-t-4   border-black px-0 lg:px-1" style="background: #e5d6d9;min-height:80px;">
+    <div class="section w-full border-t-4   border-black px-0 lg:px-1" style="background: #f0c5e3;min-height:80px;">
 
      </div>
 
-      <div class="section  w-full border-t-4   border-black px-0 lg:px-1" style="background: #b3a8ca;min-height:80px;">
+      <div class="section  w-full border-t-4   border-black px-0 lg:px-1" style="background: #dfc5f2;min-height:80px;">
 
      </div>
 
-      <div class="section  w-full border-t-4    border-black px-0 lg:px-1" style="background: #aad3d9;min-height:80px;">
+      <div class="section  w-full border-t-4    border-black px-0 lg:px-1" style="background: #c3dcf0;min-height:80px;">
 
      </div>
 

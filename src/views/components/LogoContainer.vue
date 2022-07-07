@@ -6,7 +6,7 @@
    <a class=" " style=" " href="/#/">
 
        <div class=" pt-4 pl-24 " style="width:100%; height:240px">
-            <img src="@/assets/images/amfo_logo.png" width="140px" /> 
+            <img src="@/assets/images/v2/amfo_logo.png" width="140px" /> 
        </div>
 
    </a>
